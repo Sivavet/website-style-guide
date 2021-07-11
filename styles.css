@@ -1,0 +1,113 @@
+/* @font-face {
+    font-family: Inconsolata Merriweather Montserrat;
+    src: url();
+} */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightsteelblue;
+    color: black;
+}
+h1,h2{
+    font-family: 'Merriweather';
+}
+h1{
+    font-weight: 700;
+    font-size: 26px;
+}
+h2{
+    font-weight: 500;
+    font-size: 18;
+    
+}
+p{
+    font-family: 'Inconsolata';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+main, header{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+article{
+    border: 2px solid slateblue;
+    margin-bottom: 2%;
+}
+article h2{
+    position: relative;
+    margin: 2.5% 2.5%;
+}
+
+/* 1st Color Article */
+#article-color{
+    height: 25%;
+}
+#article-color ul{
+    padding-left: 2%;
+}
+#article-color ul li{
+    display: inline-block;
+    list-style: none;
+}
+#cool-blue, #pink, #mint-green, #beige{
+    text-align: center;
+    color: whitesmoke;
+    width: 30%;
+    height: 15%;
+    margin-bottom: 5%;
+}
+#cool-blue{
+    background-color: #2d5dcc;
+}
+#pink{
+    background-color: #d957d9;
+}
+#mint-green{
+    background-color: #4fe0b0;
+}
+#beige{
+    background-color: #efd9ca;
+}
+
+/* 2nd Fonts Article */
+#font{
+    height: 35%;
+}
+#font aside{
+    display: inline-block;
+}
+aside{
+    margin: 1% 2.5%;
+    width: 30%;
+    height: 5%;
+}
+aside > h2{
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+aside h3:nth-child(0){
+    font-family: 'Inconsolata', monospace;
+}
+aside h3:nth-child(1){
+    font-family: 'Merriweather', serif;
+}
+aside h3:nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+}
+
+aside h3{
+    text-decoration: underline;
+}
+
+aside p:nth-child(3){
+    font-weight: bold;
+}
+aside p:nth-child(4){
+    font-style: italic;
+}
